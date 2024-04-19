@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    gap: 7px;
+    flex-direction: row; 
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 80px;
+}
+.item1{
+    background-color: red;
+    position: absolute;
+}
+
+.item2{
+    background-color: rgb(216, 216, 216);
+    left: 10px;
+    position: absolute;
+}
+
+.item3{
+    background-color: cyan;
+    left: 20px;
+    position: absolute;
+}
+
+.button{
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+    width: 114px;
+}

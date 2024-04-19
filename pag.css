@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+header{
+    border: solid black 4px;
+    border-radius: 50px;
+    background-color: blue;
+    height: 100px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 720px;
+    gap: 20px;
+}
+
+.aside{
+    border: solid black 4px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    padding: 17px;
+    width: 30em;
+}
+
+.main{
+    border: solid black 4px;
+    border-radius: 50px;
+    background-color: crimson;
+    padding: 17px;
+    width: 100em;
+}
+
+footer{
+    border: solid black 4px;
+    border-radius: 47px;
+    background-color: orange;
+    height: 100px;
+    padding: 11px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: cursive;
+}
